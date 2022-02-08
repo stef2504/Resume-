@@ -2,20 +2,6 @@
 	margin: 0;
 	padding: 1;
 }
-#profile-elab {
-	padding: 10%;
-}
-
-h1,
-h3 {
-	font-size: 100 px;
-}
-p1 {
-	color: black;
-}
-p2 {
-	color: black;
-}
 .bodypage {
 	display: grid;
 	grid-template-columns: 25% auto;
@@ -29,4 +15,23 @@ p2 {
 .right-panel {
 	float: right;
 	background-color: red;
+}
+#profile-elab {
+	padding: 10%;
+}
+#work,
+#skill,
+#eduaction {
+	padding-left: 10px;
+}
+
+h2 {
+	margin: 10px;
+	border-bottom: 2px solid blue;
+}
+p1 {
+	color: black;
+}
+p2 {
+	color: black;
 }
