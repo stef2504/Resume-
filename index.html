@@ -4,6 +4,7 @@
     <html lang="en">
     <head>
         <link rel="stylesheet" text="text/css" href="css/style.css">
+        <script src="js/myscript.js"></script>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,8 +13,20 @@
         <title>Resume Stef Regeling</title>
     </head>
     <body>
-        <div class="bodypage">
-            <div class="left-panel">
+        <!--javascript side navigation w/opacity-->
+        <div id="mysidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebutton" onclick="closenav()">&times</a>
+            <a href="#">Profile</a>
+            <a href="#">Contact</a>
+            <a href="#">Personel</a>
+        </div>
+
+        <span onclick="openNav()">open</span>
+
+
+
+        <div id="main">
+            <!--<div class="left-panel">
                 <img src="images/stef.jpg" alt="image of stef regeling">
              <div id="profile"> 
                 <h1>Profile</h1>
@@ -49,7 +62,7 @@
                     </dl>
                 </div>
             </div>
-            </div>
+            </div>-->
             <div class="right-panel">
                     <h1>Stef Regeling</h1>
                     <p1>Bachelor of Science (B.Sc.)</p1>

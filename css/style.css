@@ -2,11 +2,52 @@
 	margin: 0;
 	padding: 1;
 }
-.bodypage {
+.sidenav {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background: url("../images/Neuron.JPG");
+	overflow-x: hidden;
+	padding-top: 60px;
+	transition: 1s;
+}
+.sidenav a {
+	padding: 8px 8px 32px;
+	text-decoration: none;
+	font-size: 25px;
+	color: white;
+	display: block;
+	transition: 0.5s;
+}
+.sidenav a:hover {
+	color: gray;
+}
+.sidenav .closebutton {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
+}
+#main {
+	transition: margin-left 1s;
+	padding: 20px;
 	display: grid;
 	grid-template-columns: 25% auto;
 	height: 100vh;
 }
+@media screen and (max-height: 450px) {
+	.sidenav {
+		padding-top: 15px;
+	}
+	.sidenav a {
+		font-size: 18px;
+	}
+}
+
 img {
 	width: 50%;
 	height: auto;
