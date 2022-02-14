@@ -2,6 +2,10 @@
 	margin: 0;
 	padding: 1;
 }
+span {
+	font-size: 30px;
+	cursor: pointer;
+}
 .sidenav {
 	height: 100%;
 	width: 0;
@@ -12,7 +16,7 @@
 	background: url("../images/Neuron.JPG");
 	overflow-x: hidden;
 	padding-top: 60px;
-	transition: 1s;
+	transition: 0.5s;
 }
 .sidenav a {
 	padding: 8px 8px 32px;
@@ -20,7 +24,7 @@
 	font-size: 25px;
 	color: white;
 	display: block;
-	transition: 0.5s;
+	transition: 0.3s;
 }
 .sidenav a:hover {
 	color: gray;
@@ -33,7 +37,7 @@
 	margin-left: 50px;
 }
 #main {
-	transition: margin-left 1s;
+	transition: margin-left 0.5s;
 	padding: 20px;
 	display: grid;
 	grid-template-columns: 25% auto;
@@ -48,23 +52,11 @@
 	}
 }
 
-img {
-	width: 50%;
-	height: auto;
-	border: 1px solid blue;
-	border-radius: 50%;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 25px;
-	display: block;
-}
 .left-panel {
 	float: left;
-	background-color: gray;
 }
 .right-panel {
 	float: right;
-	background-color: red;
 }
 #profile-elab {
 	padding: 10%;
