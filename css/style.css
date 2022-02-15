@@ -7,13 +7,18 @@ span {
 	cursor: pointer;
 }
 .sidenav {
+	background: url("../images/Neuron.JPG");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	border: none;
 	height: 100%;
 	width: 0;
 	position: fixed;
 	z-index: 1;
 	top: 0;
 	left: 0;
-	background: url("../images/Neuron.JPG");
+	bottom: 0;
 	overflow-x: hidden;
 	padding-top: 60px;
 	transition: 0.5s;
