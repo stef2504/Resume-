@@ -88,10 +88,13 @@ p2 {
 	color: black;
 }
 #navbar{
-	display: block;
+	height: 64px;
+	display: flex;
+	text-align: center;
+	justify-content: center;
 	overflow: hidden;
 	background-color: black;
-	padding: 90px 10px;
+	padding: 50px 10px;
 	transition: 0.4s;
 	position: fixed;
 	width: 100%;
@@ -109,11 +112,6 @@ p2 {
 	line-height: 25px;
 	border-radius: 4px;
 }
-#navbar #picture{
-	font-size: large;
-	font-weight: bold;
-	transition: 0.4s;
-}
 #navbar a:hover{
 	background-color: black;
 	color: blue;
@@ -123,7 +121,8 @@ p2 {
 	color: white;
 }
 #navbar-right{
-	float: right;
+	display: block;
+	display: inline-block;
 }
 @media screen and (max-width: 580px) {
 	#navbar{
@@ -132,17 +131,10 @@ p2 {
 #navbar a{
 	float: none;
 	display: block;
-	text-align: lefyt;
+	text-align: left;
 	}
 #navbar-right{
 	float: none;
 	}
-}
-.img-stef{
-	border-radius: 50%;
-	width: 150px;
-	height: 150px;
-	overflow: hidden;
-	margin-top: -6px;
 }
 /*how to align text to the center of the navbar */
