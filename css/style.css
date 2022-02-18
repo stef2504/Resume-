@@ -58,7 +58,7 @@
 		font-size: 18px;
 	}
 }*/
-body{
+body {
 	padding-top: 200px;
 }
 .left-panel {
@@ -89,7 +89,7 @@ p1 {
 p2 {
 	color: black;
 }
-#navbar{
+#navbar {
 	height: 64px;
 	display: flex;
 	text-align: center;
@@ -103,7 +103,7 @@ p2 {
 	top: 0;
 	z-index: 99;
 }
-#navbar a{
+#navbar a {
 	display: block;
 	float: left;
 	color: white;
@@ -114,28 +114,28 @@ p2 {
 	line-height: 25px;
 	border-radius: 4px;
 }
-#navbar a:hover{
+#navbar a:hover {
 	background-color: black;
 	color: blue;
 }
-#navbar-right{
+#navbar-right {
 	display: block;
 	display: inline-block;
 }
-#navbar .active{
+#navbar .active {
 	background-color: gray;
 }
 @media screen and (max-width: 580px) {
-	#navbar{
-		padding: 20px 10px; !important;
+	#navbar {
+		padding: 20px 10px !important;
 	}
-#navbar a{
-	float: none;
-	display: block;
-	text-align: left;
+	#navbar a {
+		float: none;
+		display: block;
+		text-align: left;
 	}
-#navbar-right{
-	float: none;
+	#navbar-right {
+		float: none;
 	}
 }
 /*how to align text to the center of the navbar */
