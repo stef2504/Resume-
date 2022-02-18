@@ -1,18 +1,9 @@
 *{
-	margin: 0;
-	padding: 1;
+    margin: 0;
+    padding: 1;
 }
 body{
-	padding-top: 200px;
-}
-img{
-	border-radius: 50%;
-}
-.left-panel {
-	float: left;
-}
-.right-panel {
-	float: right;
+    padding-top: 200px;
 }
 #navbar{
 	height: 64px;
