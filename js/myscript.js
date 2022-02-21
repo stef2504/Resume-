@@ -20,4 +20,4 @@ function scrollFunction (){
 } else {
     document.getElementById("navbar").style.padding = "50px 10px";
 }
-}
+};

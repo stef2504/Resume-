@@ -79,7 +79,7 @@ h2 {
 	position: fixed;
 	width: 100%;
 	top: 0;
-	z-index: 99;
+	z-index: 1;
 }
 #navbar a {
 	display: block;
@@ -116,7 +116,4 @@ h2 {
 		float: none;
 	}
 }
-/*how to align text to the center of the navbar */
-.swiper-slide2008 {
-	background-image: ;
-}
+
