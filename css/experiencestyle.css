@@ -61,34 +61,12 @@
 body {
 	padding-top: 200px;
 }
-.left-panel {
-	float: left;
-}
-.right-panel {
-	float: right;
-}
-#profile-elab {
-	padding: 10%;
-}
-#work,
-#skill,
-#eduaction {
-	padding-left: 10px;
-}
-#description-list {
-	margin-left: 50px;
-}
 
 h2 {
 	margin: 10px;
 	border-bottom: 2px solid blue;
 }
-p1 {
-	color: black;
-}
-p2 {
-	color: black;
-}
+
 #navbar {
 	height: 64px;
 	display: flex;
@@ -139,3 +117,6 @@ p2 {
 	}
 }
 /*how to align text to the center of the navbar */
+.swiper-slide2008 {
+	background-image: ;
+}
