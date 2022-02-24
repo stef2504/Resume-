@@ -160,7 +160,7 @@ body {
 	top: 22px;
 	width: 0;
 	z-index: 1;
-	right: 60px;
+	right: 30px;
 	border: medium solid white;
 	border-width: 10px 0 10px 10px;
 	border-color: transparent transparent transparent white;
@@ -172,7 +172,7 @@ body {
 	top: 22px;
 	width: 0;
 	z-index: 1;
-	left: 60px;
+	left: 30px;
 	border: medium solid white;
 	border-width: 10px 10px 10px 0;
 	border-color: transparent white transparent transparent;
@@ -191,18 +191,22 @@ body {
 		left: 31px;
 	}
 	
-}
-.panel{
+	.panel{
+	width: 100%;
 	padding-left: 70px;
 	padding-right: 25px;
-}
-.panel::before{
-	left: -1px;
+	}
+	.panel::before{
 	border: medium solid white;
 	border-width: 10px 10px 10px 0;
 	border-color: transparent white transparent transparent;
-}
-.panel.left::after {
+	}
+	.panel.left::after, .panel.right::after {
 	left: 15px;
+	}
+	.panel.right{
+	left: 0%;
+	}
 }
+
 
