@@ -100,19 +100,7 @@ body {
 #navbar .active {
 	background-color: gray;
 }
-@media screen and (max-width: 600px) {
-	#navbar {
-		padding: 20px 10px !important;
-	}
-	#navbar a {
-		float: none;
-		display: block;
-		text-align: left;
-	}
-	#navbar-right {
-		float: none;
-	}
-}
+/*timeline */
 .timeline{
 	box-sizing: border-box;
 	position: relative;
@@ -148,7 +136,7 @@ body {
 	z-index: 1;
 }
 .panel.left{
-	left: 0;
+	right: 0%;
 }
 .panel.right{
 	left: 50%;
@@ -187,6 +175,17 @@ body {
 	border-radius: 6px;
 }
 @media screen and (max-width: 600px) {
+	#navbar {
+		padding: 20px 10px !important;
+	}
+	#navbar a {
+		float: none;
+		display: block;
+		text-align: left;
+	}
+	#navbar-right {
+		float: none;
+	}
 	.timeline::after{
 		left: 31px;
 	}
