@@ -57,3 +57,9 @@ body {
 		float: none;
 	}
 }
+.grid-container{
+	display: grid;
+	grid: auto / auto auto auto;
+	grid-gap: 100px;
+	justify-content: center; 
+}
