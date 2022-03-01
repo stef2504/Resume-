@@ -61,17 +61,17 @@ body {
 	display: grid;
 	grid: auto / auto auto auto;
 	grid-gap: 200px;
-	justify-content: center; 
+	justify-content: center;
 }
 h2{
-	color: blue;
-	text-align: center;
-	padding: 250px;
+	color: lightgray;
+	text-align: top center;
+	padding: 270px;
 }
 .generalpc{
-	background: url(../images/office365.png),url(../images/ImageJ.jpeg),url(../images/Matlab-Logo.png),url(../images/Keyboard.jpeg);
-	background-repeat: no-repeat;
-	background-position: left bottom, center bottom, right bottom, center;
-	background-size: 150px 150px, 150px 150px, 150px 150px, cover;
-
+	background-image: url(../images/office365.png),url(../images/imagj-logo.png),url(../images/matlab-logo.png),url(../images/pcbackground.jpg);
+	background-position: absolute,absolute,absolute,relative;
+	background-size: 150px 150px,150px 150px,200px 150px,cover;
+	background-repeat: no-repeat,no-repeat,no-repeat,no-repeat;
+	background-position: 8% 70%,15% 10%,35% 50%,0 0;
 }
