@@ -3,7 +3,7 @@
 	padding: 1;
 }
 body {
-	padding-top: 200px;
+	padding-top: 164px;
 	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
 		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 	font-size: 14px;
@@ -60,6 +60,18 @@ body {
 .grid-container{
 	display: grid;
 	grid: auto / auto auto auto;
-	grid-gap: 100px;
+	grid-gap: 200px;
 	justify-content: center; 
+}
+h2{
+	color: blue;
+	text-align: center;
+	padding: 250px;
+}
+.generalpc{
+	background: url(../images/office365.png),url(../images/ImageJ.jpeg),url(../images/Matlab-Logo.png),url(../images/Keyboard.jpeg);
+	background-repeat: no-repeat;
+	background-position: left bottom, center bottom, right bottom, center;
+	background-size: 150px 150px, 150px 150px, 150px 150px, cover;
+
 }
