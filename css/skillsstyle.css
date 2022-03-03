@@ -66,11 +66,11 @@ body {
 h2{
 	color: lightgray;
 	text-align: top center;
-	padding: 270px;
+	padding: 400px;
 }
 .generalpc{
 	background-image: url(../images/office365.png),url(../images/imagj-logo.png),url(../images/matlab-logo.png),url(../images/pcbackground.jpg);
-	background-position: absolute,absolute,absolute,relative;
+	background-position: fixed,fixed,fixed,relative;
 	background-size: 150px 150px,150px 150px,200px 150px,cover;
 	background-repeat: no-repeat,no-repeat,no-repeat,no-repeat;
 	background-position: 8% 70%,15% 10%,35% 50%,0 0;
