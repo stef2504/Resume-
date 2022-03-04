@@ -21,3 +21,23 @@ function scrollFunction (){
     document.getElementById("navbar").style.padding = "50px 10px";
 }
 };
+
+/* the modal for the image of office*/
+var modal = document.getElementById("firstmodal");
+var img = document.getElementById("myimg");
+var span = document.getElementsByClassName("close")[0];
+
+
+img.onclick = function(){
+    modal.style.display = "block";
+}
+
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+window.onclick = function(event){
+    if(event.target == modal){
+        modal.style.display = "none";
+    }
+}
